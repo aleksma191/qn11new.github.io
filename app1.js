@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
         let currentNumber = 0;
         const interval = setInterval(function() {
             resultElement.textContent = currentNumber.toFixed(2);
-            currentNumber += 0.15;
+            currentNumber += 0.35;
 
             if (currentNumber > targetNumber) {
                 clearInterval(interval);
